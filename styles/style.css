@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("assets/bg.png");
+    background-size: 1550px 800px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.nav {
+    height: 80px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu ul {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 550px;
+}
+
+.logo img {
+    margin-left: 10px;
+}
+
+.menu ul li {
+    margin-right: 40px;
+    list-style: none;
+}
+
+.buy-btn {
+    background: #AA77FF;
+    border: 2px solid black;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.main {
+    /* height: 600px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.content {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    max-width: 846px;
+    font-size: 80px;
+    line-height: 98px;
+}
+
+.main-btn {
+    margin-top: 50px;
+    /* margin-left:40%; */
+}
+
+.main-btn {
+    background: #AA77FF;
+    border: 2px solid #AA77FF;
+    padding:5px;
+    border-radius: 5px;         
+}
